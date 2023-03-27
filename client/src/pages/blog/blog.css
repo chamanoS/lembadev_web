@@ -1,0 +1,96 @@
+.headers {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	background-color:rgba(0, 0, 0, );
+	color: #fff;
+    width: 65vw;
+    margin: 0 auto;
+    margin-top: 40px;
+    box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+}
+
+.search-box {
+	display: flex;
+	align-items: center;
+}
+
+.search-box input[type="text"] {
+	padding: 10px;
+  border: .5px solid lightgray ;
+	border-radius: 3px;
+	margin-right: 10px;
+    background-color: #fff;
+	color: #000;
+  font-size: 12px;
+}
+
+.search-btn {
+	padding: 10px;
+	border: .5px solid lightgray ;
+	border-radius: 3px;
+	background-color: #fff;
+	color: #333;
+	cursor: pointer;
+}
+
+.new-post-btn {
+	padding: 10px;
+  border: .5px solid lightgray ;
+	border-radius: 3px;
+	background-color: #fff;
+	color: #333;
+	cursor: pointer;
+}
+
+
+#comments {
+    margin: 20px 120px;
+    margin-top: 20px;
+
+  }
+  
+  #comment-list {
+    margin-top: 10px;
+  }
+  
+  #comment-list .comment {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #comment-list .comment h3 {
+    margin-top: 0;
+  }
+  
+  #comment-list .comment p {
+    margin-bottom: 0;
+  }
+  
+  #comment-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #comment-form input[type="text"],
+  #comment-form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #comment-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #comment-form button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
