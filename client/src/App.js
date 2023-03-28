@@ -9,7 +9,7 @@ import { Contact } from "./pages/contact/Contact"
 import { Login } from "./pages/login/Login"
 import { Regsiter } from "./pages/login/Regsiter"
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import { BrowserRouter , Route, Switch } from "react-router-dom"
 import { DetailsPages } from "./pages/details/DetailsPages"
 import { Account } from "./pages/account/Account"
 import { Create } from "./components/create/Create"
@@ -17,7 +17,7 @@ import { Create } from "./components/create/Create"
 const App = () => {
   return (
     <>
-      <Router>
+      <BrowserRouter>
         <Header />
         <Switch>
           <Route exact path='/' component={Home} />
@@ -32,7 +32,7 @@ const App = () => {
           <Route exact path='/create' component={Create} />
         </Switch>
         <Footer />
-      </Router>
+      </BrowserRouter>
     </>
   )
 }
