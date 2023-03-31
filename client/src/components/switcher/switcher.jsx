@@ -33,7 +33,7 @@ function openCategory(evt, categoryName) {
   
 
 export const Projects = () => {
-  const [activeTab, setActiveTab] = useState("all");
+  const [activeTab, setActiveTab] = useState("category1");
 
   return (
     <>
